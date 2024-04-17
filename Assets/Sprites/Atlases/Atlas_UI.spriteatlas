@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atlas_UI
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 6040db8f74428ed488196f73d7528501, type: 3}
+    - {fileID: 2800000, guid: 62eace674a7d5004383539ccfd59e4cb, type: 3}
+    - {fileID: 2800000, guid: c584ddfd433fb6644b20c17ecb012a98, type: 3}
+    - {fileID: 2800000, guid: 93f87967d9b673b46a1ddfd0c9d00ef4, type: 3}
+    - {fileID: 2800000, guid: 52ab2e8788a77ae4e9cc95e9c296b25a, type: 3}
+    - {fileID: 2800000, guid: e5d0ede9b80804944abb593a94c71dd3, type: 3}
+    - {fileID: 2800000, guid: 892bd1bd9fc655143b7ebf65f3d9e287, type: 3}
+    - {fileID: 2800000, guid: e392a04bc444a0640a855211be1652d3, type: 3}
+    - {fileID: 2800000, guid: 74cfc1291419b0c4f9a2b9253709c8cd, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 93f87967d9b673b46a1ddfd0c9d00ef4, type: 3}
+  - {fileID: 21300000, guid: 62eace674a7d5004383539ccfd59e4cb, type: 3}
+  - {fileID: 21300000, guid: 52ab2e8788a77ae4e9cc95e9c296b25a, type: 3}
+  - {fileID: 21300000, guid: 74cfc1291419b0c4f9a2b9253709c8cd, type: 3}
+  - {fileID: 21300000, guid: e5d0ede9b80804944abb593a94c71dd3, type: 3}
+  - {fileID: 21300000, guid: e392a04bc444a0640a855211be1652d3, type: 3}
+  - {fileID: 21300000, guid: 892bd1bd9fc655143b7ebf65f3d9e287, type: 3}
+  - {fileID: 21300000, guid: c584ddfd433fb6644b20c17ecb012a98, type: 3}
+  - {fileID: 21300000, guid: 6040db8f74428ed488196f73d7528501, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - CuisineParty_CircleRow_Glow
+  - CuisineParty_CircleRow
+  - CuisineParty_CircleRow_Gray
+  - UI_Generic_TickIcon
+  - CuisineParty_Ribbon
+  - UI_Generic_Button_Green
+  - UI_Generic_Bag_Icon
+  - CuisineParty_CircleRow_Blue
+  - CuisineParty_Background
+  m_RenderDataMap: {}
+  m_Tag: Atlas_UI
+  m_IsVariant: 0

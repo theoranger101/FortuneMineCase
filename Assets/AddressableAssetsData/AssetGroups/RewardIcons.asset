@@ -17,60 +17,8 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: e9339937db9cdd547b1a07270a98b3a3
   m_SerializeEntries:
-  - m_GUID: 4e59bd0907a85ee4384f7f7ed88c84e8
-    m_Address: Assets/Sprites/Rewards/RewardSet_1/Pineapple.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 92bbeda2e17b1f843af5cd62092de896
-    m_Address: Assets/Sprites/Rewards/RewardSet_1/Beer.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 2eef9f1c7854b6a47b8ea9910f0fa313
-    m_Address: Assets/Sprites/Rewards/RewardSet_1/Coconut.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: e39d7c9848e6f0e4683229b3ceb8ccc8
-    m_Address: Assets/Sprites/Rewards/RewardSet_1/Egg.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 04cd88da1c0911847a57f59560218b9e
-    m_Address: Assets/Sprites/Rewards/RewardSet_1/Mushroom.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 07fb4e719e9787040986f5d871a3ab23
-    m_Address: Assets/Sprites/Rewards/RewardSet_1/Hot-Dog.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 22c69c2d16a414643829407703fed843
-    m_Address: Assets/Sprites/Rewards/RewardSet_1/Noodle.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: dcf9b2216d0b76541986201f82389dce
-    m_Address: Assets/Sprites/Rewards/RewardSet_1/Hot-Chocolate.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: a3a0f15c917d7b1439cae16a5000ec00
-    m_Address: Assets/Sprites/Rewards/RewardSet_1/Shrimp.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: b258d383b1dc2c24fa729ed57f10232d
-    m_Address: Assets/Sprites/Rewards/RewardSet_1/Fig.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 5a8a0c83b01f57248aa5c69af49a5b43
-    m_Address: Assets/Sprites/Rewards/RewardSet_1/Croissant.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: ea8078e27f53a1141af0049a1db4e395
-    m_Address: Assets/Sprites/Rewards/RewardSet_1/Candy.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 23b40cb45af89a14ba1dee4193bfe6a4
-    m_Address: Assets/Sprites/Rewards/RewardSet_1/God-Food.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 6595b6462a0e7894cb042452ff1d067f
-    m_Address: Assets/Sprites/Rewards/RewardSet_1/Donut.png
+  - m_GUID: 17b322ab4f19dd54aa3fcadf9d66dddf
+    m_Address: Assets/Sprites/Atlases/Atlas_RewardSet_1.spriteatlas
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0

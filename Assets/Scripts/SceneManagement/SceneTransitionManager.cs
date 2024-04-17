@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Events;
 using Promises;
+using Toolkit.Singletons;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -15,7 +16,7 @@ namespace SceneManagement
         Barbeque = 2,
     }
 
-    public class SceneTransitionManager : MonoBehaviour
+    public class SceneTransitionManager : SingletonBehaviour<SceneTransitionManager>
     {
         [SerializeField]
         private SceneId m_InitialScene = SceneId.Initial;
@@ -30,8 +31,8 @@ namespace SceneManagement
 
         private void Awake()
         {
-            // if (!SetupInstance(false))
-            //     return;
+            if (!SetupInstance(false))
+                return;
 
             Initialize();
             GEM.AddListener<SceneEvent>(OnSceneChangeRequest, channel: (int)SceneEventType.LoadRequest);

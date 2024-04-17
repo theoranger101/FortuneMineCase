@@ -5,6 +5,6 @@ namespace Roulette
 {
     public class RewardItemCollection : ScriptableObject
     {
-        public List<RewardItemData> Items = new List<RewardItemData>();
+        public List<RewardItem> Items = new List<RewardItem>();
     }
 }
