@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: RewardMaterials
+  m_EditorClassIdentifier: 
+  m_GroupName: RewardMaterials
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e21d4ddb14d85704bbe50a09506a7172
+  m_SerializeEntries:
+  - m_GUID: 9171f2d5ec46e364386c679f8f511291
+    m_Address: Assets/Materials/Rewards/M_2_Beer.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f7df15298a7565541ba21b4f9002e8fc
+    m_Address: Assets/Materials/Rewards/M_9_Pineapple.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e085ce3e08cb297428624a9e9080eab7
+    m_Address: Assets/Materials/Rewards/M_7_Donut.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b9470ebf436775c4a83b202f44c2e16e
+    m_Address: Assets/Materials/Rewards/M_0_Hot-Chocolate.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d889a5edd96818c489c16acd5a0ef031
+    m_Address: Assets/Materials/Rewards/M_13_Noodle.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c405fcdfa93730d4eb4f3bc8deeacdc7
+    m_Address: Assets/Materials/Rewards/M_11_Coconut.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7fc43e6186d41064786ff7f3d714aa1b
+    m_Address: Assets/Materials/Rewards/M_12_Shrimp.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b881b16926388f94d9963becf6934bcd
+    m_Address: Assets/Materials/Rewards/M_8_Egg.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 89d3d5808253d5141a982a8a0f9863d3
+    m_Address: Assets/Materials/Rewards/M_1_Hot-Dog.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 64a3cb3a218584d4eb9ed9ed214af9e6
+    m_Address: Assets/Materials/Rewards/M_6_God-Food.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d4bde90a50fa1674894ed58ca4c3f4a8
+    m_Address: Assets/Materials/Rewards/M_5_Croissant.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 00a8aee3c771ff149a2aa7354c49f2f2
+    m_Address: Assets/Materials/Rewards/M_10_Mushroom.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a0e93089a4ed2e04ea5b765945448590
+    m_Address: Assets/Materials/Rewards/M_3_Candy.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cbe6b5600d652784286546d15145dc1b
+    m_Address: Assets/Materials/Rewards/M_4_Fig.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f33bebfc9e5353f42a864b3dafaa5129, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d308666e7f6cb3949a141d939533537b, type: 2}
+    - {fileID: 11400000, guid: 11fe40393fe5a6b4c99fbae9f09d5b7f, type: 2}

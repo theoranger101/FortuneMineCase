@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: RewardAtlases
+  m_EditorClassIdentifier: 
+  m_GroupName: RewardAtlases
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e9339937db9cdd547b1a07270a98b3a3
+  m_SerializeEntries:
+  - m_GUID: 17b322ab4f19dd54aa3fcadf9d66dddf
+    m_Address: Assets/Sprites/Atlases/Rewards/Atlas_RewardSet_1.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f33bebfc9e5353f42a864b3dafaa5129, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e3090dbdb6c40124cae81f64b228fc07, type: 2}
+    - {fileID: 11400000, guid: 43b03a73df486db47853606f404885c5, type: 2}

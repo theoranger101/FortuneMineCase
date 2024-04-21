@@ -91,7 +91,7 @@ namespace SceneManagement
 
         private IEnumerator TurnOffCanvas(Canvas canvas, CanvasGroup canvasGroup, bool isActive, float alpha)
         {
-            yield return new WaitForSeconds(1f);
+            yield return 0;
 
             canvasGroup.alpha = alpha;
             if (isActive) yield break;

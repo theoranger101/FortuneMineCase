@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb4ed793eb6d4130a694daeee60be720, type: 3}
+  m_Name: 8_Egg
+  m_EditorClassIdentifier: 
+  Id: 8
+  Name: Egg
+  Sprite:
+    m_AssetGUID: 17b322ab4f19dd54aa3fcadf9d66dddf
+    m_SubObjectName: Egg(Clone)
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  SpritePath: Assets/Sprites/Atlases/Rewards/Atlas_RewardSet_1.spriteatlas[Egg]
+  Material:
+    m_AssetGUID: b881b16926388f94d9963becf6934bcd
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

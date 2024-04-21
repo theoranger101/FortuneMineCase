@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be0822f07fe24795bbe46d7aff9cf9a7, type: 3}
   m_Name: RewardItemCreator
   m_EditorClassIdentifier: 
-  Path: RewardSet_1
+  MaterialTemplate: {fileID: 2100000, guid: 305bd0cf398477a4598cc46b914f07c3, type: 2}

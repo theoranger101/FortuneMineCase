@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -16,15 +15,6 @@ namespace Utils
         {
             int index = rand.Next(0, enumerable.Count());
             return enumerable.ElementAt(index);
-        }
-        
-        public static IEnumerator WaitForFrames(int frameCount)
-        {
-            while (frameCount > 0)
-            {
-                frameCount--;
-                yield return null;
-            }
         }
     }
 }

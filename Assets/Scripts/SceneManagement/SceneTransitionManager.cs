@@ -36,6 +36,13 @@ namespace SceneManagement
 
             Initialize();
             GEM.AddListener<SceneEvent>(OnSceneChangeRequest, channel: (int)SceneEventType.LoadRequest);
+            GEM.AddListener<SceneEvent>(OnUnloadRequest, channel: (int)SceneEventType.Unload);
+        }
+
+        private void OnDisable()
+        {
+            GEM.RemoveListener<SceneEvent>(OnSceneChangeRequest, channel: (int)SceneEventType.LoadRequest);
+            GEM.RemoveListener<SceneEvent>(OnUnloadRequest, channel: (int)SceneEventType.Unload);
         }
 
         private void Initialize()
@@ -62,6 +69,11 @@ namespace SceneManagement
             bool changed = ChangeScene(evt.SceneId, evt.Additive);
 
             evt.result = changed ? EventResult.Positive : EventResult.Negative;
+        }
+
+        private void OnUnloadRequest(SceneEvent evt)
+        {
+            UnloadAdditiveScene(evt.SceneId.ToString());
         }
 
         private bool ChangeScene(SceneId sceneId, bool additive)
@@ -118,13 +130,12 @@ namespace SceneManagement
 
         private void UnloadAdditiveScene(string sceneName)
         {
-            var asyncOperation = SceneManager.UnloadSceneAsync(sceneName);
-
-            if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName(sceneName))
+            if (CurrentSceneId.ToString() == sceneName)
             {
                 ActivateScene(m_InitialScene.ToString());
             }
 
+            var asyncOperation = SceneManager.UnloadSceneAsync(sceneName);
             asyncOperation.completed += operation => { };
         }
 
@@ -148,6 +159,8 @@ namespace SceneManagement
             {
                 activeController.SetActiveState(true);
             }
+
+            SceneManager.SetActiveScene(scene);
 
             return true;
         }
